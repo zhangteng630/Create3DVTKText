@@ -17,7 +17,7 @@
 #include <vtkTriangle.h>
 #include <vtkTriangleFilter.h>
 #include <vtkProperty.h>
-#include <vtk-6.3/vtkRenderWindowInteractor.h>
+#include <vtkRenderWindowInteractor.h>
 
 vtkSmartPointer< vtkPolyData > Create3DVTKText(vtkStdString str, double depth = 0.5)
 {
